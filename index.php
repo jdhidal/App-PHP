@@ -1,4 +1,4 @@
 <?php
 // index.php
-echo "¡Hello Word Diego Hidalgo!";
+echo "¡Hello Word Jose Diego Hidalgo!";
 ?>
