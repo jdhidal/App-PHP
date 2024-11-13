@@ -40,7 +40,7 @@ docker build -t app-php .
 
 2. Run the container: Once the image is built, you can run the container:
 ```bash
-docker docker run -p 8080:80 app-php
+docker run -p 8080:80 app-php
 ```
 This will make the application available at http://localhost:8080.
 
@@ -50,8 +50,13 @@ The image for this project is also available on Docker Hub, allowing you to run 
 
 ```bash
 docker pull jdhidalgo673/app-php:latest
+```
+
+```bash
 docker run -p 8080:80 jdhidalgo673/app-php:latest
 ```
+
+This will make the application available at http://localhost:8080.
 
 ## Deployment to Heroku
 
