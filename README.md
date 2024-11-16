@@ -1,6 +1,6 @@
 # Project in PHP 🌎
 
-This is a basic program in PHP that displays a "Hello World" message on the web. The project uses Docker for containerization and has also been deployed on Heroku.
+This is a basic program in PHP that displays a "Hello World" message on the web. The project uses Docker for containerization and has also been deployed on Heroku using the `test` branch.
 
 ## Prerequisites
 
@@ -28,19 +28,6 @@ cd App-PHP
 2. **Start the application**:
 ```bash
 php -S localhost:8080
-```
-This will make the application available at http://localhost:8080.
-
-## Build and Run with Docker
-
-1. Build the Docker image: Make sure you are in the project directory and then run:
-```bash
-docker build -t app-php .
-```
-
-2. Run the container: Once the image is built, you can run the container:
-```bash
-docker run -p 8080:80 app-php
 ```
 This will make the application available at http://localhost:8080.
 
